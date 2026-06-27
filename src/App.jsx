@@ -1,6 +1,6 @@
 import React from 'react';
 
-const apiBaseUrl = "https://escola-api.onrender.com";
+const apiBaseUrl = "https://escola-api-7e9n.onrender.com";
 
 function authHeaders(token) {
   return token ? { "Authorization": "Bearer " + token } : {};
